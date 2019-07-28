@@ -1,0 +1,158 @@
+
+<!Doctype html>
+<html>
+ <head>
+   <link href="files/032%20grid.css" rel="stylesheet" type="text/css">
+   <title>Pascaline - AEY Inc.</title>
+   <link href="files/calculator-icon.png" rel="shortcut icon" type="image/png">
+ </head>
+<style type="text/css">
+    body{background-color:whitesmoke;margin:0;padding:0}header{width:100%;background-color:#fff;height:10%;overflow:hidden}.name,.reset{display:inline-block}.name{margin-left:42%;margin-right:58%;font-size:7vh;position:relative;vertical-align:text-top;margin-top:-8vh;color:#6b6b7e}.tm{font-size:2vh}.date{margin-right:4vh}.month,.day,.year{float:right;font-size:150%;font-weight:500;margin-right:1.5vh;margin-top:4vh;color:rgba(0,0,0,0.37)}.dropdown{float:left}.buttonimg{margin-top:5%;margin-left:18%;height:8vh;width:8vh;border-radius:100vh;transition:-webkit-transform .5s ease-in-out;transition:transform .5s ease-in-out;transition:transform .5s ease-in-out, -webkit-transform .5s ease-in-out}.buttonimg:hover{opacity:0.7;-webkit-transform:rotate(90deg);transform:rotate(90deg)}.dropdown:hover .buttonimg{opacity:0.7;-webkit-transform:rotate(90deg);transform:rotate(90deg)}.dropbtn{border:none;outline:none;color:white;background-color:inherit;font-family:inherit;margin:0}.dropdown-content{display:none;position:fixed;background-color:#f9f9f9;min-width:160px;box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);z-index:1;margin-left:4vh}.dropdown-content a{float:none;color:black;padding:12px 16px;text-decoration:none;display:block;text-align:left}.dropdown-content a:hover{background-color:#ddd;display:block}.dropdown:hover .dropdown-content{display:block}.end{background-color:grey;width:100%;bottom:0;overflow:hidden;position:relative}.cname{margin-bottom:-5vh;padding-top:2vh;margin-left:5vh;font-size:5vh;font-weight:700}.logos{float:right;display:inline-flex}.logo1,.logo2,.logo3{height:6vh;cursor:none}.logo1{background-color:#4ab3f4;border-radius:1vh}.logo2{background-color:#3578e5;border-radius:1vh}.logo3{background-color:#c32aa3;border-radius:1vh}.items{padding:0;padding-top:1vh;background-color:rgba(209,209,209,0.37);overflow:hidden}.list{list-style:none;padding-bottom:0;margin:0 2.5%}.list li{display:block;width:19%;display:inline-block}.itempic{width:100%;margin:0;overflow:hidden}.itempic img{width:100%;height:auto;transition:-webkit-transform 0.5s;transition:transform 0.5s;transition:transform 0.5s, -webkit-transform 0.5s;overflow:hidden}.itempic img:hover{-webkit-transform:scale(1.1);transform:scale(1.1);padding:0;cursor:cell}.instruct{background-color:white;text-align:center;color:#093D72;display:block;font-size:120%;padding-bottom:2%;font-family:Berlin Sans FB}.breaks{color:aqua;background-color:#585849}.calculator{text-align:center;font-size:160%;font-weight:900;color:rgba(16,37,56,0.82)}.budget{float:right;font-size:150%;margin-right:5%;font-family:'Bahnschrift'}.enterbud{text-align:center;font-size:120%;width:20%;background-color:rgba(167,167,167,0.29);color:#393f45;border:0}.enterbud:focus{outline:none}.addrem,.removebudg{display:none}.donebtnb{margin-bottom:2vh;cursor:pointer;font-size:4vh;border-radius:4vh;border:1px solid #3b3b45;background-color:rgba(0,0,0,0.56);color:rgba(255,255,255,0.85);margin-left:47.2%}.donebtnb:hover{color:rgba(0,0,0,0.56);background-color:rgba(255,255,255,0.85)}input[type="number"]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}input[type="number"]{-moz-appearance:textfield}.go{font-size:4vh;background-color:#2f795a;color:rgba(255,255,255,0.87);border:0}.go:hover{background-color:rgba(245,245,245,0.93);color:#1f6560;cursor:pointer}.expense{font-size:4.5vh;display:inline-flex;width:100%}.exp1,.amt1{width:50%;margin-bottom:3px;color:rgba(34,43,51,0.94)}.exp1{background-color:rgba(217,217,217,0.28);margin-left:24%;padding-left:1%;font-family:'comic sans ms'}.amt1{background-color:rgba(217,217,217,0.28);margin-right:23%;padding-right:6px;text-align:right;cursor:default;transition:display .5s, margin-right .5s}.exp1:hover+.amt1{margin-right:21%}.exp1:hover+.amt1 .crossicon{display:inline-block}.amt1:hover{margin-right:20%}.crossicon{background-color:white;height:20px;width:20px;border-radius:2vh;cursor:pointer;margin-left:-2vh;display:none}.amt1:hover .crossicon{display:inline-block}.rowa{font-size:4.5vh;display:inline-flex;width:100%}.result{margin-top:1.2%;margin-bottom:5vh}.cola,.monthlybudg,.yearlybudg,.monthlyexp,.yearlyexp,.loanval,.loanbudg,.budgexp{width:50%;margin-bottom:2.5vh}.resulthead{text-align:center;font-size:5vh;font-family:'Copperplate Gothic';font-weight:bolder}.resultline{margin-left:20%;margin-right:23%;background-color:black}.cola{margin-left:20%;padding-left:1%;font-weight:600;color:#242424;font-family:'Arial Rounded MT'}.monthlybudg,.yearlybudg,.monthlyexp,.yearlyexp,.loanval,.loanbudg,.budgexp{margin-right:23%;padding-right:6px;text-align:right;font-family:'Digiface'}.red{color:rgba(204,9,9,0.62)}.green{color:rgba(0,96,7,0.65)}.blue{color:rgba(17,9,204,0.62)}@media only screen and (max-width: 1000px){.name{margin-left:38%}}@media only screen and (max-width: 850px){header{padding-top:1vh}.date{display:none}.buttonimg{height:60px;width:60px;overflow:hidden}.dropdown-content{margin-top:-1%;font-size:14px}.name{margin-left:36%;font-size:60px;margin-top:-9%}.lists{font-size:2vh}}@media only screen and (max-width: 700px){.buttonimg{display:none}header{padding-top:7vh}.name{margin-left:32%}.instruct{font-size:16px;padding-left:4px;padding-right:4px;border-top:2px solid black}.list{margin:0;width:100%;margin-left:-5.5vh}}@media only screen and (max-width: 600px){.name{margin-left:31%;margin-top:-11%}}@media only screen and (max-width: 510px){header{margin-top:-9px;margin-bottom:-8px}.name{margin-left:30%;font-size:50px}.instruct br{display:none}.list{margin:0;width:100%;margin-left:-6vh}.budgetline{font-size:80%;display:inline-flex}.budget{padding-left:80px}.go{margin-left:-100px}}@media only screen and (max-width: 440px){.name{margin-left:28%;margin-top:-13%}.budget{padding-left:60px}.go{margin-left:-90px}}@media only screen and (max-width: 376px){.name{margin-top:-48px;margin-left:26%;margin-bottom:4px}}
+
+</style>
+ <body>
+   <header class="top">
+      <div class="dropdown">
+       <button class="dropbtn"><img src="files/3rowbutton.PNG" class="buttonimg">
+       </button>
+       <div class="dropdown-content">
+        <a href="#home">Home</a>
+        <a href="#">About</a>
+        <a href="#">Settings</a>
+       </div>
+     </div> 
+     <div class="date">
+         <div class="year"></div>
+          <div class="day"></div>
+         <div class="month"></div>
+     </div>
+     <div class="name">Pascaline<sup class="tm">TM</sup></div> 
+   </header>
+    
+  <!--       this container contains --- 10pics, selected items lists, done button                     -->
+  <div class="container">     
+     <div class="instruct">
+         Use this tool to calculate total monthly expenses for you and the family members.<br>
+         Input your monthly Budget.
+         Then Click on the pictures according to your expenses.<br> Single Click on any expense will input the expense for a single person.<br>We will calculate the total annual & monthly expense, loan and other details.
+     </div>
+     
+     
+     
+    <!--
+
+         items list
+
+     -->   
+     
+    <section class="items">
+     <ul class="list">
+         <li>
+             <figure class="itempic">
+                 <img src="files/items/item-1.jpg" class="pic1">
+             </figure>
+         </li>
+         <li>
+             <figure class="itempic">
+                 <img src="files/items/item-2.jpg" class="pic2">
+             </figure>
+         </li>
+         <li>
+             <figure class="itempic">
+                 <img src="files/items/item-3.jpg" class="pic3">
+             </figure>
+         </li>
+         <li>
+             <figure class="itempic">
+                 <img src="files/items/item-4.jpg" class="pic4">
+             </figure>
+         </li>
+          <li>
+             <figure class="itempic">
+                 <img src="files/items/item-5.jpg" class="pic5">
+             </figure>
+         </li>
+     </ul>
+       
+     <ul class="list">
+         <li>
+             <figure class="itempic">
+                 <img src="files/items/item-6.jpg" class="pic6">
+             </figure>
+         </li>
+         <li>
+             <figure class="itempic">
+                 <img src="files/items/item-7.jpg" class="pic7">
+             </figure>
+         </li>
+         <li>
+             <figure class="itempic">
+                 <img src="files/items/item-8.jpg" class="pic8">
+             </figure>
+         </li>
+          <li>
+             <figure class="itempic">
+                 <img src="files/items/item-9.jpg" class="pic9">
+             </figure>
+         </li>
+          <li>
+             <figure class="itempic">
+                 <img src="files/items/item-10.jpg" class="pic10">
+             </figure>
+         </li>
+     </ul>
+     
+   </section>  
+     <!--
+            break
+      -->
+   <br>
+   <hr size=4% width=96% class="breaks"> 
+   <br> 
+    
+     <!--
+            calculations     
+      -->
+    <section class="calculator">Calculator</section> 
+    <div class="budgetline">
+        <div class="col span-1-of-2"><div class="budget">Monthly&nbsp;Budget</div></div>
+        <div class="col span-1-of-2"><input type="number" class="enterbud" placeholder="0"></div>
+         <button class="go">GO</button>
+    </div> 
+    
+     
+     <br>
+    
+     <div class="lists">
+     <!--
+       
+          Add data before it
+
+     -->
+     <div class="forjs"><br></div>
+     </div>
+     
+         
+         
+   </div>
+    
+ 
+     
+     
+   <footer class="end">
+       <div class="cname"><span title="It doesn&rsquo;t stand for anything. Like IBM. Does IBM stand for anything?">AEY Inc.</span></div>
+     <div class="logos" id="home">
+         <img src="files/logo-twitter.svg" class="logo1">&nbsp;&nbsp;&nbsp;
+         <img src="files/logo-facebook.svg" class="logo2">&nbsp;&nbsp;&nbsp;
+         <img src="files/logo-instagram.svg" class="logo3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     </div>
+     <br><br><br>
+   </footer>
+ </body>
+    
+<script type="text/javascript">
+    var mainController=function(){var e={month:".month",day:".day",year:".year",enterbud:".enterbud",go:".go",budgetline:".budgetline",donebtna:".donebtna",donebtnb:".donebtnb",container:".container",lists:".lists",forjs:".forjs",monthlybudg:".monthlybudg",yearlybudg:".yearlybudg",monthlyexp:".monthlyexp",yearlyexp:".yearlyexp",loanval:".loanval",loanbudg:".loanbudg",budgexp:".budgexp",top:".top",pic1:".pic1",pic2:".pic2",pic3:".pic3",pic4:".pic4",pic5:".pic5",pic6:".pic6",pic7:".pic7",pic8:".pic8",pic9:".pic9",pic10:".pic10",red:"red",blue:"blue",green:"green"},n={budget:0,imgclick:{price:[],id:[]}};return{stringspass:function(){return e},datapass:function(){return n}}}(),budgetController=function(e){var n,s,c;n=e.stringspass(),s=e.datapass();var t='<div class="donebtna"><button class="donebtnb">Done</button></div><br>',i=function(){c=s.imgclick.price.length-1,s.imgclick.id[s.imgclick.id.length]=c},r=function(e){var n;n=s.imgclick.id.indexOf(e),s.imgclick.id.splice(n,1)},d=function(e){var n,c,t;if(n=e.target.parentNode.parentNode.id){c=n.split("-"),t=parseInt(c[1]),r(t),console.log(t),console.log(s.imgclick.id);var i=document.getElementById(n);i.parentNode.removeChild(i)}},a=function(e){0===s.imgclick.price.length?s.imgclick.price[0]=e:s.imgclick.price[s.imgclick.price.length]=e,i()},o=function(){document.querySelector(n.pic1).addEventListener("click",function(){a(200);var e='<span class="expense clearfix" id="id-%idn%"><div class="exp1">Personal Care</div><div class="amt1">$200&nbsp;&nbsp;<img src="files/ios-close.svg" class="crossicon"></div></span>';e=e.replace("%idn%",c),document.querySelector(n.forjs).insertAdjacentHTML("beforebegin",e)}),document.querySelector(n.pic2).addEventListener("click",function(){a(400);var e='<span class="expense clearfix" id="id-%idn%"><div class="exp1">Home & Decor</div><div class="amt1">$400&nbsp;&nbsp;<img src="files/ios-close.svg" class="crossicon"></div></span>';e=e.replace("%idn%",c),document.querySelector(n.forjs).insertAdjacentHTML("beforebegin",e)}),document.querySelector(n.pic3).addEventListener("click",function(){a(100);var e='<span class="expense clearfix" id="id-%idn%"><div class="exp1">Bags</div><div class="amt1">$100&nbsp;&nbsp;<img src="files/ios-close.svg" class="crossicon"></div></span>';e=e.replace("%idn%",c),document.querySelector(n.forjs).insertAdjacentHTML("beforebegin",e)}),document.querySelector(n.pic4).addEventListener("click",function(){a(600);var e='<span class="expense clearfix" id="id-%idn%"><div class="exp1">Kitchen</div><div class="amt1">$600&nbsp;&nbsp;<img src="files/ios-close.svg" class="crossicon"></div></span>';e=e.replace("%idn%",c),document.querySelector(n.forjs).insertAdjacentHTML("beforebegin",e)}),document.querySelector(n.pic5).addEventListener("click",function(){a(1100);var e='<span class="expense clearfix" id="id-%idn%"><div class="exp1">Food & Beverages</div><div class="amt1">$1100&nbsp;&nbsp;<img src="files/ios-close.svg" class="crossicon"></div></span>';e=e.replace("%idn%",c),document.querySelector(n.forjs).insertAdjacentHTML("beforebegin",e)}),document.querySelector(n.pic6).addEventListener("click",function(){a(900);var e='<span class="expense clearfix" id="id-%idn%"><div class="exp1">Lifestyle</div><div class="amt1">$900&nbsp;&nbsp;<img src="files/ios-close.svg" class="crossicon"></div></span>';e=e.replace("%idn%",c),document.querySelector(n.forjs).insertAdjacentHTML("beforebegin",e)}),document.querySelector(n.pic7).addEventListener("click",function(){a(50);var e='<span class="expense clearfix" id="id-%idn%"><div class="exp1">Stationery</div><div class="amt1">$50&nbsp;&nbsp;<img src="files/ios-close.svg" class="crossicon"></div></span>';e=e.replace("%idn%",c),document.querySelector(n.forjs).insertAdjacentHTML("beforebegin",e)}),document.querySelector(n.pic8).addEventListener("click",function(){a(300);var e='<span class="expense clearfix" id="id-%idn%"><div class="exp1">Baby Care & Kids</div><div class="amt1">$300&nbsp;&nbsp;<img src="files/ios-close.svg" class="crossicon"></div></span>';e=e.replace("%idn%",c),document.querySelector(n.forjs).insertAdjacentHTML("beforebegin",e)}),document.querySelector(n.pic9).addEventListener("click",function(){a(250);var e='<span class="expense clearfix" id="id-%idn%"><div class="exp1">Accessories</div><div class="amt1">$250&nbsp;&nbsp;<img src="files/ios-close.svg" class="crossicon"></div></span>';e=e.replace("%idn%",c),document.querySelector(n.forjs).insertAdjacentHTML("beforebegin",e)}),document.querySelector(n.pic10).addEventListener("click",function(){a(450);var e='<span class="expense clearfix" id="id-%idn%"><div class="exp1">Gifts</div><div class="amt1">$450&nbsp;&nbsp;<img src="files/ios-close.svg" class="crossicon"></div></span>';e=e.replace("%idn%",c),document.querySelector(n.forjs).insertAdjacentHTML("beforebegin",e)}),document.querySelector(n.lists).addEventListener("click",d)},l=function(){var e='<div class="result"><br><div class="resulthead">Calculations</div><br><hr size=8% width=57% class="resultline"><span class="rowa"><div class="cola">Monthly Budget</div> <div class="monthlybudg">0000</div></span><span class="rowa"><div class="cola">Yearly Budget</div> <div class="yearlybudg">00</div></span><span class="rowa"><div class="cola">Monthly Expense</div> <div class="monthlyexp">0000</div></span><span class="rowa"><div class="cola">Yearly Expense</div> <div class="yearlyexp">0000</div></span><span class="rowa"><div class="cola">Loan Needed(Monthly)</div> <div class="loanval">0000</div></span><span class="rowa"><div class="cola">Budget-to-Expense Ratio</div> <div class="budgexp">0.6</div></span><span class="rowa"><div class="cola">Loan-to-Budget Ratio(in %)</div> <div class="loanbudg">12%</div></span></div>';document.querySelector(n.top).insertAdjacentHTML("afterend",e);var c,t,i,r,d,a,o=0;for(c=s.imgclick.price.length,t=s.imgclick.id.length,r=0;t>r;r++){var l=s.imgclick.id[r];o+=s.imgclick.price[l]}i=s.budget-o,0>i?(i=Math.abs(i),document.querySelector(n.monthlybudg).classList.add(n.red),document.querySelector(n.yearlybudg).classList.add(n.red),document.querySelector(n.loanval).classList.add(n.red)):(i="000",document.querySelector(n.monthlybudg).classList.add(n.blue),document.querySelector(n.yearlybudg).classList.add(n.blue),document.querySelector(n.loanval).classList.add(n.green)),d=Math.abs(parseInt(i))/s.budget*100,document.querySelector(n.loanbudg).classList.add(0!==d?n.red:n.blue),a=s.budget/o,document.querySelector(n.budgexp).classList.add(1>a?n.green:n.red),o>s.budget?(document.querySelector(n.monthlyexp).classList.add(n.red),document.querySelector(n.yearlyexp).classList.add(n.red)):(document.querySelector(n.monthlyexp).classList.add(n.green),document.querySelector(n.yearlyexp).classList.add(n.green)),document.querySelector(n.monthlybudg).textContent="$"+s.budget,document.querySelector(n.yearlybudg).textContent="$"+12*s.budget,document.querySelector(n.monthlyexp).textContent="$"+o,document.querySelector(n.yearlyexp).textContent="$"+12*o,document.querySelector(n.loanval).textContent="$"+i,document.querySelector(n.loanbudg).textContent=d.toFixed(2)+"%",document.querySelector(n.budgexp).textContent=a.toFixed(4)},u=function(){var e=document.querySelector(n.container);e.parentNode.removeChild(e),l()};return{budgetevent:function(){var e=parseInt(document.querySelector(n.enterbud).value);e>0&&!isNaN(e)&&(document.querySelector(n.lists).insertAdjacentHTML("beforeend",t),s.budget=e,document.querySelector(n.budgetline).innerHTML="",o(),document.querySelector(n.donebtnb).addEventListener("click",u))}}}(mainController),uicontrol=function(e,n){var s,c;s=e.stringspass(),c=e.datapass();var t=function(){document.querySelector(s.go).addEventListener("click",n.budgetevent),document.querySelector(s.enterbud).addEventListener("keypress",function(e){(13===e.keyCode||13===e.which)&&n.budgetevent()})};return{init:function(){t()}}}(mainController,budgetController),datesetting=function(e){today=new Date;var n,s,c,t=["January","February","March","April","May","June","July","August","September","October","November","December"],i=e.stringspass();return n=today.getMonth(),s=today.getDate(),c=today.getFullYear(),{dateset:function(){document.querySelector(i.month).textContent=t[n],document.querySelector(i.day).textContent=s+",",document.querySelector(i.year).textContent=c}}}(mainController);datesetting.dateset(),uicontrol.init();
+//# sourceMappingURL=script.min.js.map
+</script>
+    
+</html>
