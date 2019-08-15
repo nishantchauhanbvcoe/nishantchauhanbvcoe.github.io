@@ -175,6 +175,7 @@ var image_controller = (function (mainCtrl, themeCtrl) {
         /////////////////////////////////////////////////////////////
 
         //Fetch User Data
+        const userInstaURL = fetchInstajson.graphql.user.profile_pic_url_hd;
         const userInstausername = 'Username: ' + `<b style="font-family: 'Roboto Mono', monospace;">${fetchInstajson.graphql.user.username}</b>`;
         const userInstafullname = 'Full Name: ' + `<b>${fetchInstajson.graphql.user.full_name}</b>`;
         const userInstabio = 'Biography: ' + `<b style="font-family: 'Ubuntu', sans-serif;">${fetchInstajson.graphql.user.biography}</b>`;
